@@ -1,0 +1,215 @@
+body {
+    background-color: #000000;
+    color: #fdfdfd;
+}
+
+#Cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Cabecera h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#Cabecera svg {
+    margin-left: 10px;
+    margin-right: 10px; /* Ajusta según sea necesario */
+}
+
+nav {
+    background: #000000; /* Degradado de colores vivos */
+    padding: 10px 0; /* Espaciado vertical */
+}
+
+nav ul {
+    list-style: none; /* Quitar puntos de la lista */
+    padding: 0; /* Quitar padding */
+    display: flex; /* Mostrar items en fila */
+    justify-content: center; /* Centrar items */
+    margin: 0; /* Quitar margen */
+}
+
+nav ul li {
+    margin: 0 20px; /* Espaciado entre items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quitar subrayado */
+    color: #ffffff; /* Color de texto */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 15px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background 0.3s; /* Transición suave */
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3); /* Fondo claro al pasar el ratón */
+}
+
+#grupo{
+    background-color: #FFA500;
+}
+
+.galeria {
+    display: flex; /* Flexbox para alinear las imágenes horizontalmente */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    overflow: hidden; /* Esconde el desbordamiento vertical */
+}
+
+.gallery {
+    display: flex; /* Usar flex para el desplazamiento */
+    overflow-x: auto; /* Permitir el desplazamiento horizontal si hay muchas imágenes */
+}
+
+.galeriimagen {
+    display: flex; /* Asegura que las imágenes dentro de este contenedor estén alineadas horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente dentro de la fila */
+}
+
+.item {
+    flex: 0 0 auto; /* No permitir que las imágenes se estiren */
+    padding: 10px;
+    margin: 10px; /* Margen entre videos */
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Para que los bordes redondeados funcionen */
+}
+
+.item img {
+    width: 150px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+
+
+#grupo h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: black;
+    background-color: #FFA500;
+    height: 50px;
+}
+
+#alba {
+    color:white;
+    background-color: #3FA7D6;
+    text-align: center;
+    font-size: 25px;
+}
+
+#alba h1{
+    font-size: 50px;
+}
+
+
+
+.prev, .next {
+    position: absolute; /* Posición absoluta para los botones */
+    top: 50%; /* Centrar verticalmente */
+    transform: translateY(-50%); /* Ajustar para centrar */
+    background: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+    border: none; /* Sin borde */
+    padding: 10px; /* Espaciado alrededor del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    z-index: 1; /* Asegura que el botón esté sobre las imágenes */
+}
+
+.prev {
+    left: 10px; /* Ajuste a la izquierda */
+}
+
+.next {
+    right: 10px; /* Ajuste a la derecha */
+}
+
+#eli {
+    color:white;
+    background-color: #92140C;
+    text-align: center;
+    font-size: 25px;
+}
+
+#eli h1{
+    font-size: 50px;
+}
+
+
+#jose {
+    color:white;
+    background-color: #72705B;
+    text-align: center;
+    font-size: 25px;
+}
+
+#jose h1{
+    font-size: 50px;
+}
+
+
+#nikky {
+    color:white;
+    background-color: #BAFF29;
+    text-align: center;
+    font-size: 25px;
+}
+
+#nikky h1{
+    font-size: 50px;
+}
+
+#lore {
+    color:white;
+    background-color: #F71735;
+    text-align: center;
+    font-size: 25px;
+}
+
+#lore h1{
+    font-size: 50px;
+}
+
+#oscar {
+    color:white;
+    background-color: #358600;
+    text-align: center;
+    font-size: 25px;
+}
+
+#oscar h1{
+    font-size: 50px;
+}
+
+/* Estilo para la sección de videos */
+#videos {
+    background-color: #f0f0f0; /* Color de fondo para la sección de videos */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+#videos h1 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    text-align: center; /* Centrar el título */
+    color: #333; /* Color del texto */
+}
+
+#videoContainer {
+    flex: 0 0 auto; /* No permitir que las imágenes se estiren */
+    padding: 10px;
+    margin: 10px; /* Margen entre videos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar efecto de profundidad */
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Para que los bordes redondeados funcionen */
+}
+
+
+
+video {
+    width: 350px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 8px;
+}
