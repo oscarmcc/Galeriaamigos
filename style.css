@@ -197,6 +197,7 @@ section h1 {
     background-color: rgba(53, 134, 0, 0.3);
     text-align: center;
     font-size: 25px;
+    cursor: url('puntero-redi.png') 16 16, auto;
 }
 
 #oscar h1{
